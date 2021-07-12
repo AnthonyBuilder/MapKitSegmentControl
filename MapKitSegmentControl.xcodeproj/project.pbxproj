@@ -11,8 +11,6 @@
 		92358237269C9374003A033A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92358236269C9374003A033A /* ContentView.swift */; };
 		92358239269C9376003A033A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92358238269C9376003A033A /* Assets.xcassets */; };
 		9235823C269C9376003A033A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9235823B269C9376003A033A /* Preview Assets.xcassets */; };
-		9235823E269C9376003A033A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235823D269C9376003A033A /* Persistence.swift */; };
-		92358241269C9376003A033A /* MapKitSegmentControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9235823F269C9376003A033A /* MapKitSegmentControl.xcdatamodeld */; };
 		9235824B269C9376003A033A /* MapKitSegmentControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235824A269C9376003A033A /* MapKitSegmentControlTests.swift */; };
 		92358255269C9376003A033A /* MapKitSegmentControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92358254269C9376003A033A /* MapKitSegmentControlUITests.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +38,6 @@
 		92358236269C9374003A033A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92358238269C9376003A033A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9235823B269C9376003A033A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9235823D269C9376003A033A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		92358240269C9376003A033A /* MapKitSegmentControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapKitSegmentControl.xcdatamodel; sourceTree = "<group>"; };
 		92358246269C9376003A033A /* MapKitSegmentControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitSegmentControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235824A269C9376003A033A /* MapKitSegmentControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitSegmentControlTests.swift; sourceTree = "<group>"; };
 		92358250269C9376003A033A /* MapKitSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapKitSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +95,6 @@
 				92358234269C9374003A033A /* MapKitSegmentControlApp.swift */,
 				92358236269C9374003A033A /* ContentView.swift */,
 				92358238269C9376003A033A /* Assets.xcassets */,
-				9235823D269C9376003A033A /* Persistence.swift */,
-				9235823F269C9376003A033A /* MapKitSegmentControl.xcdatamodeld */,
 				9235823A269C9376003A033A /* Preview Content */,
 			);
 			path = MapKitSegmentControl;
@@ -260,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9235823E269C9376003A033A /* Persistence.swift in Sources */,
-				92358241269C9376003A033A /* MapKitSegmentControl.xcdatamodeld in Sources */,
 				92358237269C9374003A033A /* ContentView.swift in Sources */,
 				92358235269C9374003A033A /* MapKitSegmentControlApp.swift in Sources */,
 			);
@@ -611,19 +603,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9235823F269C9376003A033A /* MapKitSegmentControl.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				92358240269C9376003A033A /* MapKitSegmentControl.xcdatamodel */,
-			);
-			currentVersion = 92358240269C9376003A033A /* MapKitSegmentControl.xcdatamodel */;
-			path = MapKitSegmentControl.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 92358229269C9374003A033A /* Project object */;
 }
